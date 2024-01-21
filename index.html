@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Jacob</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ChargeFlex</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ChargeFlex</h1>
+
+        <div id="currentSOCContainer">
+            <p id="currentSOC">Current SOC: <span id="curSOCValue">55</span>%</p>
+        </div>
+
+              <!-- Total Price Container -->
+        <div id="totPriContainer" class="info-container">
+            <p id="totPri">Total Price: £ <span id="totPriValue">0</span></p>
+        </div>
+      
+        <div id="relPriContainer">
+            <p id="relPri">Relative Price: £<span id="relPriValue">0</span>/kWh</p>
+        </div>
+      
+        <div class="slider-container">
+            <label for="sliderTop">Unplugging Time</label>
+            <div class="slider-controls">
+                <span class="min-max-values">0%</span>
+                <input type="range" id="sliderTop" min="0" max="100" value="50" class="slider" />
+                <span class="min-max-values">100%</span>
+            </div>
+            <p id="sliderValueTop" class="slider-value">50%</p>
+        </div>
+
+        <div class="slider-container">
+            <label for="sliderMiddle">Expected SOC</label>
+            <div class="slider-controls">
+                <span class="min-max-values">0%</span>
+                <input type="range" id="sliderMiddle" min="0" max="100" value="50" class="slider" />
+                <span class="min-max-values">100%</span>
+            </div>
+            <p id="sliderValueMiddle" class="slider-value">50%</p>
+        </div>
+
+        <div class="slider-container">
+            <label for="sliderBottom">Minimum SOC</label>
+            <div class="slider-controls">
+                <span class="min-max-values">0%</span>
+                <input type="range" id="sliderBottom" min="0" max="100" value="50" class="slider" />
+                <span class="min-max-values">100%</span>
+            </div>
+            <p id="sliderValueBottom" class="slider-value">50%</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
